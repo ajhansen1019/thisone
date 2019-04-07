@@ -31,6 +31,10 @@ function keyPressed()
 	}
 	if(key == 'w' || key == 'W')
 	{
-		c = color(0, 0, 0);
+		c = color(255, 255, 255);
+	}
+	if(key == 'p' || key == 'P')
+	{
+		c = color(255, 190, 200);
 	}
 }
