@@ -17,7 +17,7 @@ function keyPressed()
 {
 	if(key == 'r' || key == 'R')
 	{
-		c = color(255, 0, 0);
+		c = color(205,92,92);
 	}
 	
 	if(key == 'g' || key == 'G')
@@ -29,6 +29,7 @@ function keyPressed()
 	{
 		c = color(100,149,237);
 	}
+	
 	if(key == 'w' || key == 'W')
 	{
 		c = color(255, 255, 255);
@@ -37,12 +38,19 @@ function keyPressed()
 	{
 		c = color(255, 190, 200);
 	}
+	
 		if(key == 'y' || key == 'Y')
 	{
 		c = color(255, 250, 205);
 	}
+	
 		if(key == 't' || key == 'T')
 	{
 		c = color(0,128,128);
+	}
+	
+		if(key == 'p' || key == 'P')
+	{
+		c = color(147,112,219);
 	}
 }
