@@ -37,4 +37,8 @@ function keyPressed()
 	{
 		c = color(255, 190, 200);
 	}
+		if(key == 'y' || key == 'Y')
+	{
+		c = color(0, 190, 200);
+	}
 }
