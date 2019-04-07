@@ -8,7 +8,7 @@ function setup() {
  
 function mouseDragged() 
 { 
-	strokeWeight(8);
+	strokeWeight(1em);
 	stroke(c);
 	line(mouseX, mouseY, pmouseX, pmouseY);
 }
