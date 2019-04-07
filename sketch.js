@@ -29,4 +29,8 @@ function keyPressed()
 	{
 		c = color(0, 0, 255);
 	}
+	if(key == 'w' || key == 'W')
+	{
+		c = color(0, 0, 0);
+	}
 }
