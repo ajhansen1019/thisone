@@ -3,7 +3,7 @@ var c;
 function setup() {
  	createCanvas(windowWidth, windowHeight);
  	c = color(255,255,255);
-	cursor('https://files.cargocollective.com/c310271/Glue-Gun.png', 50px, 50px);
+	cursor('https://files.cargocollective.com/c310271/Glue-Gun.png', 50, 50);
 }
  
 function mouseDragged() 
