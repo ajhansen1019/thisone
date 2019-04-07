@@ -22,12 +22,12 @@ function keyPressed()
 	
 	if(key == 'g' || key == 'G')
 	{
-		c = color(0, 255, 0);
+		c = color(144,238,144);
 	}
 	
 	if(key == 'b' || key == 'B')
 	{
-		c = color(0, 0, 255);
+		c = color(100,149,237);
 	}
 	if(key == 'w' || key == 'W')
 	{
@@ -40,5 +40,9 @@ function keyPressed()
 		if(key == 'y' || key == 'Y')
 	{
 		c = color(255, 250, 205);
+	}
+		if(key == 'm' || key == 'M')
+	{
+		c = color(230, 250, 205);
 	}
 }
