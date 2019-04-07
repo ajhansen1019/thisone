@@ -3,7 +3,7 @@ var c;
 function setup() {
  	createCanvas(windowWidth, windowHeight);
  	c = color(255,255,255);
-	cursor('https://s3.amazonaws.com/mupublicdata/cursor.cur');
+	cursor('https://files.cargocollective.com/c310271/Thisone.png');
 }
  
 function mouseDragged() 
