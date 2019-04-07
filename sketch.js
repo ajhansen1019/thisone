@@ -49,7 +49,7 @@ function keyPressed()
 		c = color(0,128,128);
 	}
 	
-		if(key == 'p' || key == 'P')
+		if(key == 'm' || key == 'M')
 	{
 		c = color(147,112,219);
 	}
