@@ -3,12 +3,12 @@ var c;
 function setup() {
  	createCanvas(windowWidth, windowHeight);
  	c = color(255,255,255);
-	cursor('https://files.cargocollective.com/c310271/Thisone.png');
+	cursor('https://files.cargocollective.com/c310271/Glue-Gun.png');
 }
  
 function mouseDragged() 
 { 
-	strokeWeight(10);
+	strokeWeight(8);
 	stroke(c);
 	line(mouseX, mouseY, pmouseX, pmouseY);
 }
@@ -39,6 +39,6 @@ function keyPressed()
 	}
 		if(key == 'y' || key == 'Y')
 	{
-		c = color(0, 190, 200);
+		c = color(255, 250, 205);
 	}
 }
