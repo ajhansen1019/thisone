@@ -3,7 +3,7 @@ var c;
 function setup() {
  	createCanvas(windowWidth, windowHeight);
  	c = color(255,255,255);
-	cursor('https://files.cargocollective.com/c310271/purple.png');
+	cursor('https://files.cargocollective.com/c310271/Glue.png');
 }
  
 function mouseDragged() 
@@ -41,8 +41,8 @@ function keyPressed()
 	{
 		c = color(255, 250, 205);
 	}
-		if(key == 'm' || key == 'M')
+		if(key == 't' || key == 'T')
 	{
-		c = color(230, 250, 205);
+		c = color(0,128,128);
 	}
 }
