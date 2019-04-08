@@ -3,7 +3,7 @@ var c;
 function setup() {
  	createCanvas(windowWidth, windowHeight);
  	c = color(255,255,255);
-	cursor('https://files.cargocollective.com/c310271/Pencil2.png');
+	cursor('︎');
 }
  
 function mouseDragged() 
