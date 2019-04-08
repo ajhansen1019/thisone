@@ -39,18 +39,23 @@ function keyPressed()
 		c = color(255, 190, 200);
 	}
 	
-		if(key == 'y' || key == 'Y')
+	if(key == 'y' || key == 'Y')
 	{
 		c = color(255, 250, 205);
 	}
 	
-		if(key == 't' || key == 'T')
+	if(key == 't' || key == 'T')
 	{
 		c = color(0,128,128);
 	}
 	
-		if(key == 'm' || key == 'M')
+	if(key == 'm' || key == 'M')
 	{
 		c = color(147,112,219);
+	}
+	
+	if(key == 'k' || key == 'K')
+	{
+		c = color(0,0,0);
 	}
 }
