@@ -3,7 +3,7 @@ var c;
 function setup() {
  	createCanvas(windowWidth, windowHeight);
  	c = color(255,255,255);
-	cursor('https://files.cargocollective.com/c310271/Pencil150.png');
+	cursor('https://files.cargocollective.com/c310271/PencilCursor.png');
 }
  
 function mouseDragged() 
@@ -57,5 +57,9 @@ function keyPressed()
 	if(key == 'k' || key == 'K')
 	{
 		c = color(0,0,0);
+	}
+	if(key == 'o' || key == 'O')
+	{
+		c = color(255,127,80);
 	}
 }
